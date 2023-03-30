@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "commandrelay",
+  "version": "${version}",
+  "name": "Command Relay",
+  "description": "A simple mod that allows you to send a command to friends",
+  "authors": [],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["chase.minecraft.architectury.commandrelay.fabric.CommandRelayFabric"]
+  },
+  "mixins": [
+    "commandrelay.mixins.json",
+    "commandrelay-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "minecraft": ">=1.19.4"
+  }
+}
