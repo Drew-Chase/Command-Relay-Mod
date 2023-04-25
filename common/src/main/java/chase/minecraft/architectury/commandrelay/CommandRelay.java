@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 
 public class CommandRelay {
 
-    public static final Logger log = LogManager.getLogger("Comand Relay");
+    public static final Logger log = LogManager.getLogger("Command Relay");
     public static final String MOD_ID = "commandrelay";
 
     public static void init() {
